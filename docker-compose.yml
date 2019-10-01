@@ -1,0 +1,8 @@
+version: "2"
+services:
+  opencv:
+    build: ./
+    privileged: true
+    command: ""
+    devices:
+      - "/dev/video0:/dev/video0"
